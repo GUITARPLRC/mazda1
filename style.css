@@ -1,19 +1,49 @@
-.navbar {
-	margin:0;
-	padding:15px 0;
+*, ::before, ::after {
+  padding:0;
+  margin:0;
+  box-sizing:border-box;
+  vertical-align:baseline;
+}
+html {
+  font-family: 'Open Sans', sans-serif;
 }
 
-@media screen and (min-width:768px){
-    .navbar-brand-centered {
-        position: absolute;
-        left: 50%;
-        display: block;
-        width: 160px;
-        text-align: center;
-        background-color: #eee;
-    }
-    .navbar>.container .navbar-brand-centered, 
-    .navbar>.container-fluid .navbar-brand-centered {
-        margin-left: -80px;
-    }
+nav {
+  background-color:#191919;
+  width:100%;
+  height:auto;
+  font-weight:800;
+}
+nav div {
+  width:90%;
+  margin:0 auto;
+}
+nav div img {
+  width:90px;
+}
+nav div ul {
+  float:right;
+  font-size:12px;
+}
+nav div ul li {
+  list-style-type:none;
+  display:inline-block;
+  letter-spacing:0.2em;
+  padding:0 0 5px;
+}
+nav div ul li a {
+  color:#7f8c8d;
+  text-decoration:none;
+  transition:color 0.3s;
+}
+nav div ul li a:hover {
+  color:#fff;
+}
+
+#hero {
+  min-width:100%;
+  min-height:100%;
+  background-image:url(images/cx-9.jpg);
+  background-attachment:fixed;
+  background-size:50%;
 }
