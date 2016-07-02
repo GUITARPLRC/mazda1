@@ -41,9 +41,94 @@ nav div ul li a:hover {
 }
 
 #hero {
-  min-width:100%;
-  min-height:100%;
-  background-image:url(images/cx-9.jpg);
-  background-attachment:fixed;
-  background-size:50%;
 }
+
+#models {
+  overflow:hidden;
+}
+
+#models article {
+  width:33%;
+  display:inline-block;
+}
+#models article div img {
+  width:102%;
+  margin-bottom:2%;
+  transition:2s all ease;
+}
+#models article div img:hover {
+  transform:scale(1.05);
+}
+
+#models article #info {
+  border-left:1px solid #e7e7e7;
+}
+#models article div h4, #models article div p {
+  text-align:center;
+  margin:4% 0;
+}
+#models article div h4 {
+  font-size:15px;
+  letter-spacing:0.2em;
+}
+#models article div p {
+  color:#999;
+}
+
+#dashboard {
+  margin-top:2%;
+  width:100%;
+  height:100vh;
+  background-image:url("images/dashboard.jpg");
+  background-size:cover;
+}
+
+#about {
+  width:100%;
+}
+#about article {
+  width:33%;
+  display:inline-block;
+  text-align:center;
+  padding:3%;
+}
+#about article img {
+  margin-bottom:7%;
+}
+#about article h4 {
+  letter-spacing:0.2em;
+  margin-bottom:7%;
+}
+#about article  p {
+  font-size:15px;
+  margin-bottom:7%;
+}
+#about article a {
+  font-size:14px;
+  letter-spacing:0.2em;
+  text-decoration:none;
+  color:#999;
+  border-bottom:2px solid #999;
+  transition:0.2s all ease;
+  padding-bottom:3px;
+  font-weight:800;
+}
+#about article a:hover {
+  padding-bottom:0;
+  color:#000;
+  border-bottom:2px solid red;
+}
+
+#parts {
+  width:100%;
+  position:relative;
+  background-color:#e7e7e7;
+  margin-top:5%;
+}
+#parts article img {
+  position:absolute;
+  left:-37%;
+  transform:scale(1.01);
+  vertical-align:baseline;
+}
+
